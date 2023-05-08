@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "firebase": "^9.21.0",
-    "serialport": "^11.0.0"
+    "serialport": "^11.0.0",
+    "firebase": "^8.10.0",
+    "xbee-api": "^0.6.0"
   }
 }
