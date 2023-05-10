@@ -39,7 +39,7 @@ xbeeAPI.parser.on("data", function (frame) {
     let value = ((((ad1 * 5) / 1024) * 10) / 4) * 3;
     //SendTemp(value);
 
-    console.log(value);
+    console.log(`AD1 : ${ad1} => ${value}C° `);
     createTemp(value);
   }
   //((value/1023)*1200)*3/10-50
